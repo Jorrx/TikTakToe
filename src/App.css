@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Protest Riot", sans-serif;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage{
+  max-width: 1000px;
+  margin-top: 180px;
+  position: relative;
+  width: 1200px;
+  color: #222;
+  padding: 0 60px;
+  box-sizing: border-box;
+  margin-top: 200px;
+}
+.homepage>h1 {
+  font-size: 120px;
+}
+
+.homepage>a{
+  text-decoration: none;
+  
+}
+
+.homepage > img{
+  width: 400px;
+  /* height: 400px; */
+  position: absolute;
+  right: -120px;
+  top: -240px;
+  margin-right: 70px;
+}
+
+.tiktak {
+  max-width: 850px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 40px 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.tiktak h1 {
+  font-size: 80px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+
+.score {
+  margin: 25px;
+  font-size: 50px;
+}
+
+
+.Ostyle {
+  font-weight: bold;
+  color: #27AAFF;
+
+}
+
+.Xstyle {
+  font-weight: bold;
+  color: #F24E1E;
+}
+
+.board {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto 0;
+  position: relative;
+}
+
+.boardImg {
+  position: absolute;
+}
+
+.boardItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  height: 33.33%;
+  border: none;
+  z-index: 100;
+  font-size: 30px;
+}
+
+.selection_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.selection_div>img {
+  cursor: pointer;
+  width: 200px;
+}
+
+.selection_div>div {
+  width: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.resultOfGame {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+
+.board.player_keys {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.boardImg.player_keys {
+  width: 100%;
+  height: 100%;
+}
+
+.boardImg.player_keys.O {
+  background-color: red;
+}
+
+.boardItem.player_keys.O {
+  color: #27AAFF;
+
+}
+
+.end {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.btn_1 {
+  color: #0acf83;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: 400;
+}
